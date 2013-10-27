@@ -27,6 +27,12 @@ public class BitTechAutomationTest
 	{
 		browser.findElement(By.id("email")).sendKeys("asad@gmail.com");
 	}
+	
+	@Test
+	public void signUp()
+	{
+		browser.findElement(By.id("u_0_0")).sendKeys("Asad");
+	}
 
 }
 
