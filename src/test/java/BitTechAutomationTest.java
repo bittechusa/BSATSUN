@@ -33,6 +33,17 @@ public class BitTechAutomationTest
 	{
 		browser.findElement(By.id("u_0_0")).sendKeys("Asad");
 	}
+	
+	@Test
+	public void print()
+	{
+		System.out.println("I am Bashar Mohammad from NYC");
+	}
 
+	
+	
+	
+	
+	
 }
 
