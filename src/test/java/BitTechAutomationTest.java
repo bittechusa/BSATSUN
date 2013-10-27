@@ -32,6 +32,7 @@ public class BitTechAutomationTest
 	public void signUp()
 	{
 		browser.findElement(By.id("u_0_0")).sendKeys("Asad");
+		browser.findElement(By.id("u_o_1")).sendKeys("zaman");
 	}
 	
 	@Test
